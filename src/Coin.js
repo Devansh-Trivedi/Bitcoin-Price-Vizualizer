@@ -1,6 +1,6 @@
 import React from 'react';
 import './Coin.css';
-
+import {Table} from 'react-bootstrap'
 const Coin = ({
   name,
   price,
@@ -11,29 +11,37 @@ const Coin = ({
   priceChange
 }) => {
   return (
-    <div className='coin-container'>
-      <div className='coin-row'>
-        <div className='coin'>
-          {/* <img src={image} alt='crypto' /> */}
-          <h1>{name}</h1>
-          <p className='coin-symbol'>{symbol}</p>
-        </div>
-        <div className='coin-data'>
-          <p className='coin-price'>${price}</p>
-          <p className='coin-volume'>${volume}</p>
-
-          {priceChange < 0 ? (
-            <p className='coin-percent red'>{priceChange}%</p>
-          ) : (
-            <p className='coin-percent green'>{priceChange}%</p>
-          )}
-
-          <p className='coin-marketcap'>
-            Mkt Cap: ${marketcap}
-          </p>
-        </div>
-      </div>
+    <div className="coin-container">
+       
+       <Table striped bordered hover variant="dark" responsive>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Symbol</th>
+              <th>Price</th>
+              <th>volUsd24Hr</th>
+              <th>Chg%24Hr</th>
+              <th>MktCap</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{name}</td>
+              <td>{symbol}</td> 
+              <td>${parseFloat(price).toFixed(2)}</td>
+              <td>{parseFloat(volume).toFixed(2)}</td>
+              <td>{priceChange < 0 ? (
+                  <p className='coin-percent red'>{parseFloat(priceChange).toFixed(2)}%</p>
+                ) : (
+                  <p className='coin-percent green'>{parseFloat(priceChange).toFixed(2)}%</p>
+                )}
+              </td>
+              <td>{parseFloat(marketcap).toFixed(2)}</td>
+            </tr>
+          </tbody>
+      </Table>
     </div>
+    
   );
 };
 
