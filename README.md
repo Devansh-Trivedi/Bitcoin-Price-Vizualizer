@@ -28,5 +28,17 @@ LinkedIn Profile : [Link](https://www.linkedin.com/in/devansh-trivedi-a937851b0/
   <img src="./src/images/graph.png" width="900" alt="accessibility text" style={{align:"center"}}>
 </p>
 
+### Fully Responsive
+
+<p>
+<img src="./src/images/mob1.png" width="900" title="hover text" style={{align:"center"}}>
+  <br/>
+  <br/>
+  <br/>
+  <img src="./src/images/mob2.png" width="900" alt="accessibility text" style={{align:"center"}}>
+  <br/>
+  
+</p>
+
 
 
