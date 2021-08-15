@@ -2,6 +2,7 @@ import React from 'react';
 import {Container, Row, Col, Card, Button} from 'react-bootstrap';
 import './App.css';
 import TopPage from './Animations/TopPage';
+import BottomPage from './Animations/BottomPage';
 import ether from './images/ether.png';
 import tron from './images/tron.png';
 import litecoin from './images/litecoin.png';
@@ -50,11 +51,13 @@ function Home(){
                         <Link to='Litecoin'>
                             <h3>Litecoin</h3>
                             <img src={litecoin} />
+                            
                         </Link>
                     </Col>
                 </Row>
+                <BottomPage/>
+
             </Container>
-            
             
         </div>
     )

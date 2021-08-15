@@ -294,7 +294,7 @@
   
 }
 .homeCards{
-  padding-bottom: 200px;
+  padding-bottom: 0px;
 }
 .homeCards img{
   width: auto;
@@ -316,7 +316,12 @@
       text-align: center;
     }
     .homeCards{
-      padding-bottom: 200px;
+      padding-bottom: 0px;
     }
     
+  }
+
+  .App {
+    font-family: sans-serif;
+    text-align: center;
   }

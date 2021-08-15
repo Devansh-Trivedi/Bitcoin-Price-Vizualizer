@@ -1,4 +1,6 @@
+
 const bigChart = {
+  
   data: (canvas) => {
     let ctx = canvas.getContext("2d");
 
@@ -9,6 +11,7 @@ const bigChart = {
     gradientFill.addColorStop(0, "rgba(29,140,248,0)"); //blue colors
 
     return {
+      
       labels: [
         "2015",
         "2016",
@@ -29,7 +32,7 @@ const bigChart = {
           pointBackgroundColor: "#1d8cf8",
           pointBorderColor: "rgba(255,255,255,0)",
           pointHoverBackgroundColor: "#5464ed",
-          //pointHoverBorderColor:'rgba(35,46,55,1)',
+          pointHoverBorderColor:'rgba(35,46,55,1)',
           pointBorderWidth: 20,
           pointHoverRadius: 10,
           pointHoverBorderWidth: 15,
