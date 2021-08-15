@@ -2,7 +2,7 @@
 
 Developed by : [Devansh Trivedi](https://www.linkedin.com/in/devansh-trivedi-a937851b0/)
 <br/>
-LinkedIn : [Link](https://www.linkedin.com/in/devansh-trivedi-a937851b0/)
+LinkedIn Profile : [Link](https://www.linkedin.com/in/devansh-trivedi-a937851b0/)
 
 ## Home
 
@@ -29,4 +29,5 @@ LinkedIn : [Link](https://www.linkedin.com/in/devansh-trivedi-a937851b0/)
 </p>
 
 
+### [https://blockchain-coin-vizualizer.netlify.app](https://blockchain-coin-vizualizer.netlify.app)
 
