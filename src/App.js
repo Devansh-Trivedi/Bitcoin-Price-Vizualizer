@@ -7,13 +7,15 @@ import Litecoin from './Litecoin';
 import {BrowserRouter,Route,Switch,useHistory} from 'react-router-dom'
 import Tron from './Tron';
 
-  const Routing = ()=>{
-    const history = useHistory()
 
-    return(
-      
-      <Switch>
-        <Route exact path="/" >
+
+
+
+  function App() {
+    return (
+      <BrowserRouter>
+        
+        <Route path="/" >
         <Home />
         </Route>
         <Route path="/Ether">
@@ -24,19 +26,7 @@ import Tron from './Tron';
         </Route>
         <Route path="/Tron">
           <Tron />
-        </Route>        
-      </Switch>
-    )
-  }
-  
-
-
-
-  function App() {
-    return (
-      <BrowserRouter>
-        
-        <Routing />
+        </Route>
         
       </BrowserRouter>
     );
