@@ -22,7 +22,7 @@ import Tron from './Tron';
         <Route path="/Litecoin">
           <Litecoin />
         </Route>
-        <Route exact path="/Tron">
+        <Route path="/Tron">
           <Tron />
         </Route>        
       </Switch>
