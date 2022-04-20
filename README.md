@@ -1,8 +1,8 @@
 # Bitcoin Coin Prize Vizualizer
 
-Developed by : [Devansh Trivedi](https://www.linkedin.com/in/devansh-trivedi-a937851b0/)
+<!-- Developed by : [Devansh Trivedi](https://www.linkedin.com/in/devansh-trivedi-a937851b0/)
 <br/>
-LinkedIn Profile : [Link](https://www.linkedin.com/in/devansh-trivedi-a937851b0/)
+LinkedIn Profile : [Link](https://www.linkedin.com/in/devansh-trivedi-a937851b0/) -->
 
 ## Home
 
