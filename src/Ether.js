@@ -57,16 +57,17 @@ function Ether() {
         'https://api.coincap.io/v2/assets/ethereum/history?interval=d1'
       )
       .then(res => {
-        setaday(res.data.data[719]);
-        setbday(res.data.data[720]);
-        setcday(res.data.data[721]);
-        setdday(res.data.data[722]);
-        seteday(res.data.data[723]);
-        setfday(res.data.data[724]);
-        setgday(res.data.data[725]);
-        sethday(res.data.data[726]);
-        setiday(res.data.data[727]);
-        setjday(res.data.data[728]);
+        console.log(res.data.data);
+        setaday(res.data.data[354]);
+        setbday(res.data.data[355]);
+        setcday(res.data.data[356]);
+        setdday(res.data.data[357]);
+        seteday(res.data.data[358]);
+        setfday(res.data.data[359]);
+        setgday(res.data.data[360]);
+        sethday(res.data.data[361]);
+        setiday(res.data.data[362]);
+        setjday(res.data.data[363]);
       })
       .catch(error => console.log(error));
 
@@ -78,16 +79,17 @@ function Ether() {
         'https://api.coincap.io/v2/assets/ethereum/history?interval=h1'
       )
       .then(res => {
-        setahr(res.data.data[674]);
-        setbhr(res.data.data[675]);
-        setchr(res.data.data[676]);
-        setdhr(res.data.data[677]);
-        setehr(res.data.data[678]);
-        setfhr(res.data.data[679]);
-        setghr(res.data.data[680]);
-        sethhr(res.data.data[681]);
-        setihr(res.data.data[682]);
-        setjhr(res.data.data[683]);
+        console.log(res.data.data);
+        setahr(res.data.data[709]);
+        setbhr(res.data.data[710]);
+        setchr(res.data.data[711]);
+        setdhr(res.data.data[712]);
+        setehr(res.data.data[713]);
+        setfhr(res.data.data[714]);
+        setghr(res.data.data[715]);
+        sethhr(res.data.data[716]);
+        setihr(res.data.data[717]);
+        setjhr(res.data.data[718]);
       })
       .catch(error => console.log(error));
 
@@ -109,6 +111,7 @@ function Ether() {
   
   const dailydata = {
     // labels: (mapdata.map((d) =><li>{d}</li>)),
+    
     labels: [formatDate(aday.date),formatDate(bday.date),formatDate(cday.date),formatDate(dday.date),formatDate(eday.date),formatDate(fday.date),formatDate(gday.date),formatDate(hday.date),formatDate(iday.date),formatDate(jday.date)],
     datasets: [
       {
